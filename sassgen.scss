@@ -1,0 +1,20 @@
+$color: green;
+
+h1 {
+  color: $color;
+  font-style: bold;
+}
+
+h2 {
+  @extend h1;
+}
+
+h3 {
+  color: $color;
+}
+
+div {
+  p {
+    color: blue;
+  }
+}

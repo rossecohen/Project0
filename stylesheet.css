@@ -1,0 +1,29 @@
+.odd {
+  background-color: yellow;
+  font-size: 18pt;
+  color: red;
+}
+
+#benji {
+  font-family: arial;
+  font-weight: bold;
+}
+
+a::before {
+  content:"Click Here:"
+}
+
+@media (min-width: 600px) {
+  h1::after {
+  content:"Welcome to My Site"
+}
+}
+
+@media (max-width: 599px) {
+  h1::after {
+  content:"Welcome"
+}
+}
+div {
+  background-color: green;
+}
